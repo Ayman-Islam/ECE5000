@@ -107,7 +107,7 @@ class HelloWorldSkill(OVOSSkill):
         # wait=True will block the message bus until the dialog is finished
         self.speak_dialog("hello.world", wait=True)
         # this will speak the string without translation
-        self.speak("hello english folks")
+        self.speak("please work please")
 
     def stop(self):
         """Optional action to take when "stop" is requested by the user.
