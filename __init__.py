@@ -68,7 +68,7 @@ class TurnOnLight(OVOSSkill):
         """
         return self.settings.get("log_level", "INFO")
 
-    @intent_handler(IntentBuilder("TurnOnLightOne").require("TurnOnLightOneKeyboard"))
+    @intent_handler(IntentBuilder("TurnOnLightOne").require("TurnOnLightOneKeyword"))
     def handle_turn_on_light_intent(self, message):
         """
         speak_dialog() is an OVOS skill method that safely handles
