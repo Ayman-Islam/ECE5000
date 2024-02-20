@@ -5,7 +5,7 @@ from os import walk, path
 
 URL = "https://github.com/Ayman-Islam/ECE5000"
 SKILL_CLAZZ = "HelloWorldSkill"  # needs to match __init__.py class name
-PYPI_NAME = "ovos-skill-hello-world"  # pip install PYPI_NAME
+PYPI_NAME = "ovos-skill-lights"  # pip install PYPI_NAME
 
 # below derived from github url to ensure standard skill_id
 SKILL_AUTHOR, SKILL_NAME = URL.split(".com/")[-1].split("/")
